@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack serve --mode=development",
+    "start:dev": "webpack serve --mode=development --hot",
     "dev": "webpack --watch --mode=development",
     "prod": "webpack --mode=production"
   },
@@ -23,7 +23,13 @@
   "devDependencies": {
     "@babel/core": "*",
     "babel-loader": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "mini-css-extract-plugin": "*",
     "path": "*",
+    "style-loader": "*",
+    "url-loader": "*",
     "webpack": "*",
     "webpack-cli": "*",
     "webpack-dev-server": "*"
