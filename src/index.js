@@ -1,3 +1,3 @@
-const displayName = () => console.log("Bavly");
+const displayName = () => console.log("Bavly from index");
 
 displayName();
