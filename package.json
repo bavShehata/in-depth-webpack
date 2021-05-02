@@ -27,8 +27,5 @@
     "webpack": "*",
     "webpack-cli": "*",
     "webpack-dev-server": "*"
-  },
-  "dependencies": {
-    "html-webpack-plugin": "*"
   }
 }
